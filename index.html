@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        font-family: Arial, sans-serif;
+        background-color: rgb(0, 0, 3);
+        color: white;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+        height: 60px; 
+        background-color: rgb(25, 25, 88);  
+        }
+        .left{
+            margin-left: 20px;
+            font-size:20px;
+            font-style: oblique;
+        }
+        .nav ul{
+            list-style-type: none;
+            display: flex;
+            gap: 29px;
+        }
+        .nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+         .nav ul li a:hover{
+            text-decoration: none;
+            color: rgb(76, 76, 175);
+            font-size: 1.024rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+           margin: 130px 0;
+            
+        }
+          .firstsection > div{
+          width: 30%;
+      
+         
+        }
+        .leftsection{
+            
+            font-size: 2.5rem;
+            margin: 30px 0;
+        } 
+        .leftsection .buttons{
+            padding: 31px;
+        }
+        .leftsection .btn{
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }  
+        .rightsection img{
+            height: 80%;
+            background-color:;
+            
+        }
+        .purple{
+            color: blueviolet;
+        }
+        #element{
+             color: blueviolet;
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        main hr{
+            border: 0;
+            height: 1.2px;
+            background-color: rgb(123, 123, 246);
+            margin: 60px 84px;
+
+        }
+        .text-grey{
+            color: grey;
+        }
+        .secondsection h1{
+            font-size: 1.9rem;
+        }
+        .secondsection .box{
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .top{
+            width: 23px;
+            position: relative;
+            top:-32px;
+            left:-9px;
+        }
+        .vertical-text{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color:#0e0e1a;
+           
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width:223px;
+        }
+        footer .text{
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+</style> 
+<body>
+    <header>
+    <div class="nav">
+        <div class="left">Sathvik's protfoilo</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+      
+    </div>
+    </header>
+     <main>
+        <section class="firstsection">
+            
+                <div class="leftsection">Hi, My name is <span class="purple">Sathvik</span>
+                    <div>and Iam a passionate</div>
+                    
+                     <span id="element"></span>
+                     <div class="buttons">
+                        <button class="btn">Download Resume</button>
+                        <button class="btn">Visit Github</button>
+                     </div>
+                </div>
+                <div class="rightsection">
+                    <img class='img'src="https://static.vecteezy.com/system/resources/thumbnails/011/153/366/small/3d-web-developer-working-on-project-illustration-png.png" alt="">
+                </div>
+         
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-grey">what i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="top" src="html.png" alt="Developer.png">
+                    <div class="vertical-text">HTML <br>Developer(2025)</div>
+                    <div class="vertical-desc">
+                     "Proficient in creating well-structured and semantic web pages using HTML5."
+"Developed basic web layouts and content using core HTML elements and attributes."
+"Understanding of HTML best practices for accessibility and search engine optimization (SEO)."
+"Experience with creating and manipulating HTML forms and input elements."
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top" src="css.png" alt="Developer.png">
+                    <div class="vertical-text">CSS <br>Developer(2025)</div>
+                    <div class="vertical-desc">
+                       Developed an single landing website in 5 days
+                    Developed a fully-operational mobile app for child abuse prevention using HTML, CSS, and JavaScript in only 5 days.
+                    i have been used tailwind css as a framework.and used bootstap too.With these framewrok i have been many single landing websites
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top" src="js.png" alt="Developer.png">
+                    <div class="vertical-text">JAVA SCRIPT Developer(2025)</div>
+                    <div class="vertical-desc">
+                      As a JavaScript Developer (Front-End), you're in a dynamic role responsible for creating interactive, user-friendly web experiences. Your knowledge of JavaScript, alongside HTML and CSS, is your main toolkit. The industry is currently moving towards frameworks like React.js. making them highly sought-after skills.  It's also about illustrating how you've used these tools to provide tangible business solutions or enhance user experience.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top" src="react.png" alt="Developer.png">
+                    <div class="vertical-text">REACT Developer(2025)</div>
+                    <div class="vertical-desc">
+                       itate soluta, est accusantium facere eum quos iusto facilis blanditiis odit, sapiente ipsam! Quisquam facilis ullam doloremque officia aliquid numquam!
+                        Beatae ducimus odit perspiciatis suscipit quasi, illo nemo, voluptate quae voluptatum eius hic. Ducimus dolorum repud
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top" src="java.png" alt="Developer.png">
+                    <div class="vertical-text">Java <br>Developer(2025)</div>
+                    <div class="vertical-desc">
+                       itate soluta, est accusantium facere eum quos iusto facilis blanditiis odit, sapiente ipsam! Quisquam facilis ullam doloremque officia aliquid numquam!
+                        Beatae ducimus odit perspiciatis suscipit quasi, illo nemo, voluptate quae voluptatum eius hic. Ducimus dolorum repud
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="top" src="sql (1).png" alt="Developer.png">
+                    <div class="vertical-text">SQL <br>
+                         Developer(2025)</div>
+                    <div class="vertical-desc">
+                       itate soluta, est accusantium facere eum quos iusto facilis blanditiis odit, sapiente ipsam! Quisquam facilis ullam doloremque officia aliquid numquam!
+                        Beatae ducimus odit perspiciatis suscipit quasi, illo nemo, voluptate quae voluptatum eius hic. Ducimus dolorum repud
+                    </div>
+                </div>
+             
+                </div>
+             
+            </div>
+        </section>
+     </main>
+     <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Sathvik's Developer portfolio </h3>
+            </div>
+            <div class="second">
+                <ul>
+                <li>COURSES</li>
+                <br>
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+                <li>react</li>
+                </ul>
+            </div>
+            <div class="third">
+                  <ul>
+                <li>Get Help</li>
+                <br>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+           
+                </ul>
+            </div>
+            <div class="fourth">
+                  <ul>
+                <li>Blog</li>
+                <br>
+                <li>Services</li>
+                <li>Catagories</li>
+                <li>Free Style</li>
+                <li>Leet code</li>
+                </ul>
+            </div>
+   
+        </div>
+        <div class="text">
+              Copyright&copy;www.sathviksportfolio.com | All rights reserved
+        </div>
+     </footer>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <script>
+    var typed = new Typed('#element', {
+      strings: ['Cse Student', 'Java Developer','Web Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
