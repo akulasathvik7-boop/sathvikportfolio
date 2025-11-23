@@ -1,4 +1,2 @@
 # sathvikportfolio
-this is my first portfolio website 
-
-sathvikportfoliowebsite.netlify.app
+this is my website https://sathvikportfoliowebsite.netlify.app/
